@@ -1,0 +1,46 @@
+:root{
+    --first:#4e4343;
+    --secend:
+}
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+    background:linear-gradient(to right,rgb(27, 25, 25,0.8) 20%,rgb(27, 25, 25,0.6)50%,rgb(27, 25, 25,0)),url("images/headerbg.png");
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content:left;
+    flex-direction: column;
+    align-items:flex-start;
+    text-align: justify;
+    color: white;
+    padding: 8rem;
+}
+.header > h1{
+    font-size: 4rem;
+    line-height: 4.5rem;
+}
+button{
+    padding: 10px 35px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid transparent;
+    background: red;
+}
+button:hover{
+    border: 1px solid white;
+    color: white;
+}
